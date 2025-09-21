@@ -7,4 +7,4 @@ function writeLog(message) {
   log.write(entry);
 }
 
-module.log = writeLog
+module.writeLog = writeLog
