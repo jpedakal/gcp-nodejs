@@ -1,2 +1,2 @@
 # gcp-nodejs
-gcp node app
+gcp node
