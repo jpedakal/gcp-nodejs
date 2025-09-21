@@ -10,4 +10,4 @@ app.get("/fact/:id", (req, res) => {
   res.send(`Factorial of num ${params} is ${result}`);
 });
 
-app.listen(3000);
+app.listen(3000, "0.0.0.0");
