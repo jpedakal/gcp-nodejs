@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const { writeLog } = require("./logs");
-import getSecret from "./secret";
+const getSecret = require('./secret')
 
 app.get("/fact/:id", async (req, res) => {
   const params = parseInt(req.params.id, 10); // convert string to number
