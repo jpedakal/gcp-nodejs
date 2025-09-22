@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@google-cloud/logging": "^11.2.1",
+    "@google-cloud/secret-manager": "^6.1.0",
     "express": "^5.1.0"
   }
 }
