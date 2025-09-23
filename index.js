@@ -19,6 +19,6 @@ app.get("/fact/:id", async (req, res) => {
   res.send(`Factorial of num ${params} is ${result}`);
 });
 
-app.listen(3000, "0.0.0.0", () => {
+app.listen(80, "0.0.0.0", () => {
   console.log("Server running on port 3000");
 });
